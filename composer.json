@@ -11,5 +11,10 @@
     "minimum-stability": "dev",
     "require": {
         "zdrojowa/cms-kernel": "~1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Selene\\Modules\\BladeEditorModule\\": "src/"
+        }
     }
 }
