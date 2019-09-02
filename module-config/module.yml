@@ -1,0 +1,7 @@
+name: BladeEditorModule
+version: 0.0.1
+
+aclAnchor: bladeEditor
+aclName: BladeEditorModule
+
+routePrefix: BladeEditorModule

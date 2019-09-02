@@ -1,0 +1,18 @@
+list:
+  path: '{editPath}'
+  controller: Selene\Modules\BladeEditorModule\Http\Controllers\BladeEditorController@index
+  methods:
+    - GET
+  permission: bladeEditor.list
+  middlewares:
+    - web
+edit:
+  path: '{editBlade}'
+  controller: Selene\Modules\BladeEditorModule\Http\Controllers\BladeEditorController@editFile
+  methods:
+    - GET
+update:
+  path: '{updateBlade}'
+  controller: Selene\Modules\BladeEditorModule\Http\Controllers\BladeEditorController@updateFile
+  methods:
+    - POST

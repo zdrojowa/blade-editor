@@ -1,0 +1,15 @@
+{
+    "name": "zdrojowa/blade-editor",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gustaw Bzinkowski",
+            "email": "gbzinkowski@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "zdrojowa/cms-kernel": "~1.2"
+    }
+}

@@ -1,0 +1,5 @@
+bladeEditor:
+  name: BladeEditor
+  permission: bladeEditor.list
+  icon: mdi mdi-format-text
+  route: BladeEditorModule::list
