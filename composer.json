@@ -16,5 +16,12 @@
         "psr-4": {
             "Selene\\Modules\\BladeEditorModule\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Selene\\Modules\\BladeEditorModule\\BladeEditorServiceProvider"
+            ]
+        }
     }
 }
